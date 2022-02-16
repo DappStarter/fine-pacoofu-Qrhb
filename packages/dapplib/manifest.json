@@ -1,0 +1,43 @@
+{
+    "repository": {},
+    "__outputFolder": null,
+    "blocks": [
+        {
+            "category": "asset_value_tracking",
+            "name": "core-token",
+            "parameters": {
+                "decimals": "18",
+                "supply": "100000000",
+                "symbol": "Soc",
+                "name": "Soc dollars "
+            }
+        },
+        {
+            "category": "access_control",
+            "name": "core-contract_runstate",
+            "parameters": {}
+        },
+        {
+            "category": "nft",
+            "name": "core-custom_nft",
+            "parameters": {
+                "template": "collectible"
+            }
+        },
+        {
+            "category": "collection",
+            "name": "core-entity",
+            "parameters": {}
+        },
+        {
+            "category": "file_storage",
+            "name": "core-sia",
+            "parameters": {
+                "mode": "multiple"
+            }
+        }
+    ],
+    "blockchain": "avalanche",
+    "language": "solidity",
+    "framework": "react"
+}
